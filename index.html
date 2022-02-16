@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <!-- Tailwind CSS link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <header class="mx-auto">
+      <h1 class="text-center text-3xl font-bold m-10">
+        Welcome To Money Bank!!
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div class="w-3/4 mx-auto bg-green-300 p-5">
+          <form action="">
+            <div class="m-5">
+              <label class="text-2xl font-medium" for="text">Income: </label>
+              <input
+                class="w-3/5 border-2 rounded m-4 px-4"
+                type="text"
+                placeholder="your income"
+              />
+            </div>
+            <h3 class="text-2xl font-semibold m-10">Expenses</h3>
+            <div class="m-5">
+              <label class="text-2xl font-medium" for="text">Food: </label>
+              <input
+                class="w-3/5 border-2 rounded m-4 px-4"
+                type="text"
+                placeholder="food cost"
+              />
+            </div>
+            <div class="m-5">
+              <label class="text-2xl font-medium" for="text">Rent: </label>
+              <input
+                class="w-3/5 border-2 rounded m-4 px-4"
+                type="text"
+                placeholder="rent cost"
+              />
+            </div>
+            <div class="m-5">
+              <label class="text-2xl font-medium" for="text">Cloth: </label>
+              <input
+                class="w-3/5 border-2 rounded m-4 px-4"
+                placeholder="cloths cost"
+              />
+            </div>
+            <div class="flex justify-items-center">
+              <button
+                class="content-center mt-5 rounded-full text-2xl font-semibold bg-cyan-300 hover:bg-cyan-400 p-2"
+              >
+                Calculate
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
